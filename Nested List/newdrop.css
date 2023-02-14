@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(option4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+
+.section{
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0px 3px 22px 6px rgb(253,253,251);
+    border-radius: 10px;
+    background-color:rgb(253,253,251,0.5)
+}
+
+.form-category{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-category input[type ="text"]{
+    width: 78%;
+    border-radius: 10px;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form-category input[type="submit"]{
+    width: 10%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.mainul{
+gap: 10px;
+    text-align: left;
+    font-size:1rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+li{
+    border: 4px solid black;
+    background-color:rgb(253,253,251,0.5);
+    /* backdrop-filter: blur(10px); */
+    border-radius: 10px;
+    list-style-type: none;
+    box-shadow: 0px 0px 29px -1px rgb(253,253,251);
+    padding: 5px;
+
+ 
+}
+
+li li{
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px brown solid; 
+}
+
+.btn button{
+    width: 100px;
+}
+
+ul ul{
+    padding: 0px;
+}
+h5{
+    text-shadow: 2px black;
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+    float: left;
+}
+.btn button{
+    font-size: 15px;
+    padding: 2px !important;
+
+}
+#text-category{
+    float: right;
+}
